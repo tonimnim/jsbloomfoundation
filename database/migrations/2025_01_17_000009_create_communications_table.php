@@ -35,7 +35,7 @@ return new class extends Migration
             $table->id();
             $table->string('title');
             $table->string('subject');
-            $table->longText('content');
+            $table->text('content');
             $table->string('status')->default('draft'); // draft, scheduled, sending, sent
             $table->timestamp('scheduled_at')->nullable();
             $table->timestamp('sent_at')->nullable();

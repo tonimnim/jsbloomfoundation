@@ -12,7 +12,7 @@ return new class extends Migration
             $table->id();
             $table->string('title');
             $table->string('slug')->unique();
-            $table->longText('content');
+            $table->text('content');
             $table->json('meta_data')->nullable(); // SEO: title, description, keywords
             $table->string('status')->default('draft'); // draft, published, archived
             $table->string('template')->default('default'); // page template type

@@ -26,7 +26,7 @@ return new class extends Migration
             $table->string('title');
             $table->string('slug')->unique();
             $table->text('excerpt')->nullable();
-            $table->longText('content');
+            $table->text('content');
             $table->string('featured_image')->nullable();
             $table->json('gallery')->nullable(); // additional images
             $table->json('meta_data')->nullable(); // SEO data

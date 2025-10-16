@@ -13,9 +13,9 @@ return new class extends Migration
             $table->string('name');
             $table->string('slug')->unique();
             $table->text('brief_description');
-            $table->longText('full_description');
-            $table->longText('objectives')->nullable();
-            $table->longText('activities')->nullable();
+            $table->text('full_description');
+            $table->text('objectives')->nullable();
+            $table->text('activities')->nullable();
             $table->string('featured_image')->nullable();
             $table->json('gallery')->nullable(); // project images
             $table->json('videos')->nullable(); // video URLs/embeds

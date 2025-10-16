@@ -11,7 +11,7 @@ return new class extends Migration
         Schema::create('site_settings', function (Blueprint $table) {
             $table->id();
             $table->string('key')->unique();
-            $table->longText('value')->nullable();
+            $table->text('value')->nullable();
             $table->string('type')->default('text'); // text, number, boolean, json, file
             $table->string('group')->default('general'); // general, contact, social, payment, etc.
             $table->text('description')->nullable();
