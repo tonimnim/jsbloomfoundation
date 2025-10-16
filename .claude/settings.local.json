@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep:*)",
+      "Bash(cp:*)",
+      "Bash(mkdir:*)",
+      "Bash(php artisan:*)",
+      "Bash(npm install:*)",
+      "Bash(dir public)",
+      "WebSearch",
+      "Bash(rm:*)",
+      "Read(/C:\\Users\\OMOTECH\\ustawi\\app/**)",
+      "Read(/C:\\Users\\OMOTECH\\ustawi\\database\\migrations/**)",
+      "Read(/C:\\Users\\OMOTECH\\ustawi\\database\\migrations/**)",
+      "Read(/C:\\Users\\OMOTECH\\ustawi\\database\\migrations/**)",
+      "Read(/C:\\Users\\OMOTECH\\ustawi/**)",
+      "Read(/C:\\Users\\OMOTECH\\ustawi\\resources\\js\\Pages\\Homepage/**)",
+      "Bash(test:*)",
+      "Bash(composer:*)"
+    ],
+    "deny": []
+  }
+}
