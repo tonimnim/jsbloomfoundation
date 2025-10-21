@@ -224,7 +224,7 @@ watch(isLoading, (newValue) => {
                     <!-- Call-to-Action Buttons -->
                     <div class="flex flex-col sm:flex-row gap-4 pt-6 justify-center">
                         <a
-                            href="https://www.gofundme.com/f/young-men-and-women-gain-daily-necessary-essentials"
+                            href="https://www.gofundme.com/f/2nd-annual-help-young-adults-gain-daily-essentials?lid=8bgjo94uhpsd&utm_source=product&utm_medium=email&utm_campaign=TXN_donation_alert&utm_content=fundraiser_page"
                             target="_blank"
                             rel="noopener noreferrer"
                             class="group relative px-8 py-3.5 bg-gradient-to-r from-bloom-yellow-500 to-bloom-yellow-600 text-white rounded-full font-semibold text-base shadow-xl hover:shadow-bloom-yellow-500/50 transform hover:-translate-y-0.5 hover:scale-105 transition-all duration-300 inline-block text-center"

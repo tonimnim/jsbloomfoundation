@@ -40,7 +40,7 @@ const props = defineProps({
                     </div>
                     <h3 class="text-xl font-bold text-gray-900 mb-3 text-center">Donate</h3>
                     <p class="text-gray-600 mb-6 text-center text-sm sm:text-base">Your financial support helps us expand our programs and reach more beneficiaries</p>
-                    <a href="https://www.gofundme.com/f/young-men-and-women-gain-daily-necessary-essentials" target="_blank" rel="noopener noreferrer" class="block text-center text-bloom-yellow-600 font-semibold hover:text-bloom-yellow-700 transition-colors duration-300">
+                    <a href="https://www.gofundme.com/f/2nd-annual-help-young-adults-gain-daily-essentials?lid=8bgjo94uhpsd&utm_source=product&utm_medium=email&utm_campaign=TXN_donation_alert&utm_content=fundraiser_page" target="_blank" rel="noopener noreferrer" class="block text-center text-bloom-yellow-600 font-semibold hover:text-bloom-yellow-700 transition-colors duration-300">
                         Make a Donation →
                     </a>
                 </div>
@@ -83,7 +83,7 @@ const props = defineProps({
                         Your support helps us empower vulnerable communities and create lasting positive change
                     </p>
                     <a
-                        href="https://www.gofundme.com/f/young-men-and-women-gain-daily-necessary-essentials"
+                        href="https://www.gofundme.com/f/2nd-annual-help-young-adults-gain-daily-essentials?lid=8bgjo94uhpsd&utm_source=product&utm_medium=email&utm_campaign=TXN_donation_alert&utm_content=fundraiser_page"
                         target="_blank"
                         rel="noopener noreferrer"
                         class="inline-block bg-bloom-yellow-500 hover:bg-bloom-yellow-600 text-white px-8 py-4 rounded-full font-semibold text-lg shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300"
