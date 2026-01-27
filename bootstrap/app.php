@@ -22,11 +22,6 @@ return Application::configure(basePath: dirname(__DIR__))
             'role' => \App\Http\Middleware\RoleMiddleware::class,
             'admin' => \App\Http\Middleware\AdminMiddleware::class,
         ]);
-        
-        // Exclude webhook route from CSRF protection
-        $middleware->validateCsrfTokens(except: [
-            'paystack/webhook',
-        ]);
     })
     ->withExceptions(function (Exceptions $exceptions): void {
         //

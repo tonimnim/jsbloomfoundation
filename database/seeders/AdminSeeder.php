@@ -11,33 +11,27 @@ class AdminSeeder extends Seeder
 {
     /**
      * Run the database seeds.
+     *
+     * Note: For production, use the admin:ensure command instead.
+     * This seeder is for local development only.
      */
     public function run(): void
     {
-        // Admin users to create
-        $admins = [
-            [
-                'email' => 'admin@jsbloomfoundation.org',
-                'name' => 'JS Bloom Admin',
-            ],
-        ];
+        $email = env('ADMIN_EMAIL', 'admin@example.com');
+        $password = env('ADMIN_PASSWORD', 'password');
+        $name = env('ADMIN_NAME', 'Admin');
 
-        // Create admin users with the same password
-        foreach ($admins as $adminData) {
-            $user = User::firstOrCreate(
-                ['email' => $adminData['email']],
-                [
-                    'name' => $adminData['name'],
-                    'password' => Hash::make('Playball22!'),
-                    'role' => UserRole::ADMIN,
-                    'email_verified_at' => now(),
-                    'is_active' => true,
-                ]
-            );
-            
-            $this->command->info('Admin user created: ' . $adminData['email']);
-        }
-        
-        $this->command->info('All admin users have been created with the password: Playball22!');
+        $user = User::firstOrCreate(
+            ['email' => $email],
+            [
+                'name' => $name,
+                'password' => Hash::make($password),
+                'role' => UserRole::ADMIN,
+                'email_verified_at' => now(),
+                'is_active' => true,
+            ]
+        );
+
+        $this->command->info("Admin user ready: {$email}");
     }
 }
